@@ -1,6 +1,95 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    background: url(images/background1.jpg) center / cover no-repeat;
+/*    min-width: 1215px;*/
+    font: 400 14px / 14px Tahoma;
+}
+a{
+    text-decoration: none;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 button[type="submit"]{
-    height: 35px;
+    height: 37px;
     width: 149px;
-/*    background: url(images/Button-copy.png);*/
+    background: url(images/Button-copy.png);
+}
+
+header {
+    background: #074c89;
+    min-height: 38px;
+}
+.main-menu{
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+.main-menu li{
+    display: inline-block;
+}
+.main-menu-item {
+    color: #60b5ed;
+    padding: 11px 13px 14px 13px;
+     display: inline-block;
+}
+.main-menu-item:nth-last-of-type:after(3){
+    display: block;
+    border-left: 1px solid;
+    content: "";
+
+}
+.main-menu-item:hover{
+    color: #ffffff;
+    background: #4eabda;
+}
+.proposition,
+.login-btn{
+    color: #fff;
+
+}
+/*
+.proposition,
+.login-btn:hover{
+    background:
+
+}
+*/
+.proposition{
+    position: relative;
+    padding-left: 50px;
+}
+.proposition:before{
+    width: 21px;
+    height: 23px;
+    position: absolute;
+    left: 12px;
+    display: inline-block;
+    background: url(images/inventicons-29.png);
+    content: "";
+}
+.login-btn{
+/*    padding: 0;*/
+    width: 189px;
+/*    height: 35px;*/
+    background: linear-gradient(to bottom, rgba(106,188,226,1) 0%, rgba(57,133,208,1) 100%);
+    border: 1px solid;
+    border-image:linear-gradient(to bottom, rgba(66,152,210,1) 0%, rgba(101,169,228,1) 100%);
+}
+.container {
+    height: 613px;
+    width: 560px;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    top: 50%;
+
 }
