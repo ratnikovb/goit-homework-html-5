@@ -40,7 +40,7 @@ header {
 }
 .main-menu-item {
     color: #60b5ed;
-    padding: 11px 13px 14px 13px;
+    padding: 11px 13px 13px 13px;
     display: inline-block;
 }
 
@@ -83,7 +83,7 @@ header {
     content: "";
 }
 .login-btn{
-    padding: 10px 0px 13px 13px;
+    padding: 10px 0px 12px 13px;
     margin-right: 20px;
     width: 189px;
     background: linear-gradient(to bottom, rgba(106,188,226,1) 0%, rgba(57,133,208,1) 100%);
@@ -193,6 +193,7 @@ button[type="submit"]{
     height: 37px;
     width: 149px;
     margin-top: 22px;
+    margin-bottom: 20px;
     color: #fff;
     font: 400 14px / 16px Helvetica Neue;
     background: url(images/Button-copy.png);
